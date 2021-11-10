@@ -1,0 +1,66 @@
+body {
+    background-color: gray;
+}
+
+h1#header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.stdProfile {
+    width: 100%;
+    height: 100%;
+}
+
+div.picScale {
+    width: 32px;
+    height: 32px;
+    margin: 12px;
+}
+
+
+
+p.stdMsgDialog {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+p.teacherMsgDialog {
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.stdMsg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.teacher {
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+div.teacher > div.teacherScale > img {
+    width: 32px;
+    height: 32px;
+    margin: 12px;
+}
+
+
+.stdMsg > h2 {
+    margin: 0;
+    padding: 0;
+}
+
+div.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
