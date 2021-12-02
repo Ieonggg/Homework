@@ -1,0 +1,57 @@
+h1#header {
+  background-color: #005b9a;
+  color: white;
+}
+
+img#fb_logo {
+  width: 50px;
+  height: 50px;
+}
+
+span#name {
+  color: #0191c8;
+}
+
+span#date {
+  color: gray;
+}
+
+.wdpost {
+  margin: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.picpost {
+  margin: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ex215pic1 {
+  width: 50px;
+  height: 80px;
+}
+
+.buttoncenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img#like {
+  width: 17px;
+  height: 17px;
+}
+
+img#comment {
+  width: 17px;
+  height: 17px;
+}
+
+img#share {
+  width: 17px;
+  height: 17px;
+}
